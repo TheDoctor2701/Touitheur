@@ -1,0 +1,557 @@
+body
+{
+background-color: rgb(230, 236, 240);
+margin : 0em ;
+font-family: sans-serif;
+}
+
+h1
+{
+	color: rgb(73, 153, 180) ;
+	margin-top: 0.4em;
+	margin-left: 3.8em;
+font-size: 3em;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+color: rgb(93, 173, 226);
+}
+
+
+li
+{
+list-style-type: none;
+}
+
+
+
+
+
+#entete
+{
+	z-index: 1000;
+	position: fixed;
+margin-top: 0em;
+ width:100%;
+ height:2.85em;
+ background:white;
+ font-weight: bold
+}	
+.entete
+{
+	margin-top: 1em;
+font-size: 0.9em;
+
+margin-left: 15%;
+}
+.pigeon
+{
+	margin-top: -2.7em;
+margin-left: 50%;
+}
+.carre
+{
+	margin-top: -0.2em;
+width:12.2em;
+height:0.2em;
+background-color: rgb(93, 173, 226);
+margin-left:15%;
+}
+
+
+#recherche
+{
+	margin-left: 65%;
+}
+.carre2
+{
+	position: absolute;
+	margin-top: -2.3em;
+width:11em;
+height:2em;
+background-color: rgb(230, 233, 235);
+}
+.rond
+{
+	position: absolute;
+ width:2em;
+ height:2em;
+ 	margin-top: -2.3em;
+ border-radius:50%;
+ background:rgb(230, 233, 235);
+ margin-left:-1.1em;
+}
+.rond2
+{
+	position: absolute;
+ width:2em;
+ height:2em;
+ 	margin-top: -2.3em;
+ border-radius:50%;
+ background:rgb(230, 233, 235);
+ margin-left:10em;
+}
+.recherche
+{
+	margin-left: 0em;
+position: absolute;
+font-size: 0.75em;
+color: grey;
+font-weight: normal;
+margin-top: -2.3em;
+}
+
+
+.carre2bis
+{
+	position: absolute;
+	margin-left: 0.18em;
+	margin-top: -2.2em;
+width:10.7em;
+height:1.75em;
+background-color: rgb(245, 248, 250);
+}
+.rondbis
+{
+	position: absolute;
+	margin-top: -2.2em;
+
+ width:1.75em;
+ height:1.75em;
+ border-radius:50%;
+ background:rgb(245, 248, 250);
+ margin-left:-1em;
+}
+.rond2bis
+{
+	position: absolute;
+	margin-top: -2.2em;
+
+ width:1.75em;
+ height:1.75em;
+ border-radius:50%;
+ background:rgb(245, 248, 250);
+ margin-left:10.1em;
+}
+
+.picprofil
+{
+	position: absolute;
+	margin-top: -2.6em;
+	margin-left:13em;
+}
+
+
+
+
+
+
+.banniere
+{
+display: inline-block;
+position: absolute;
+margin-left: 0em;
+margin-top: -5.95em;
+ width:20em;
+ height:26.35em;
+}
+
+#description
+{
+display: inline-block;
+position: absolute;
+background-color: white;
+margin-top: 9.45em;
+margin-left: 12.45em;
+height:7.35em;
+width: 17.9em;
+}
+
+.pseudo
+{
+font-size: 1.2em;
+font-weight: bold;
+margin-left: 4.7em;
+margin-top: 0.5em;
+ color:black;
+}
+
+.tn
+{
+font-size: 0.78em;
+color: rgb(101, 119, 134);
+margin-left: 7.2em;
+margin-top: 0.2em;
+}
+
+
+#barreprofil
+{
+position: absolute;
+font-size: 0.85em;
+font-weight: bold;
+margin-left: 18em;
+margin-top: 16em;
+ width:20em;
+ height:5em;
+ color: rgb(101, 119, 134);
+}
+.barreprofil
+{
+margin-top:-0.5em;
+margin-left: -2.5em;
+	font-size: 0.9em;
+display: inline-block;
+}
+#chiffreprofil
+{
+	position: absolute;
+	font-size: 1.1em;
+font-weight: bold;
+margin-left: 12.2em;
+margin-top: 13.4em;
+ width:40em;
+ height:5em;
+}
+
+#titre
+{
+position: absolute;
+background-color: white;
+margin-top: 3.55em;
+margin-left:31em;
+width: 37em;
+height:6em;
+}
+
+
+#tendance
+{
+position: absolute;
+ width:17.9em;
+ height:26em;
+ background-color: white;
+ margin-left: 12.45em;
+margin-top: 17.55em;
+}
+
+.tendance
+{
+font-size: 1.1em;
+font-weight: bold;
+margin-left: 0.8em;
+margin-top: 1em;
+ color:black;
+}
+
+ul
+{
+font-size: 0.95em;
+position: absolute;
+margin-left: -1.5em;
+line-height: 1.8em;
+font-weight: bold;
+margin-top: 0.2em;
+}
+
+
+
+
+#suggestion
+{
+	position: absolute;
+margin-top: 2.55em;
+ width:12.9em;
+ height:11.5em;
+ background:white;
+ margin-left: 49.1em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.suggestion
+{
+position: absolute;
+display: inline-block;
+margin-top: 1em;
+font-size: 0.8em;
+margin-left: 0.7em;
+}
+
+.picsuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.35em; 
+margin-left: 0.5em;
+}
+
+.pseudosuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.1em; 
+margin-left: 5.3em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.tnsuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.3em; 
+margin-left: 16.5em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+.traitgris
+{
+	position: absolute;
+margin-top: 4.85em;
+margin-left: 0.7em;
+ width:11.5em;
+ height:0.04em;
+ background:rgb(230, 236, 240);
+}
+
+.picsuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.5em; 
+margin-left: 0.5em;
+}
+
+.pseudosuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 10.3em; 
+margin-left: 5.3em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.littlelgbt
+{
+	position: absolute;
+margin-top: 5.9em;
+margin-left: 6.7em;
+}
+
+.tnsuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 10.9em; 
+margin-left: 13.7em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+.traitgris2
+{
+	position: absolute;
+margin-top: 8em;
+margin-left: 0.7em;
+ width:11.5em;
+ height:0.05em;
+ background:rgb(230, 236, 240);
+}
+
+.picsuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 8.7em; 
+margin-left: 0.55em;
+}
+
+.pseudosuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 15.6em; 
+margin-left: 5.2em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.tnsuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 16.4em; 
+margin-left: 12em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+
+
+#message1
+{
+	position: absolute;
+margin-top: 6.95em;
+ width:26.4em;
+ height:4.7em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.nom1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1em; 
+margin-left: 4.9em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.nomaro1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 11.2em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+.message1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.3em; 
+margin-left: 4.7em;
+	font-size: 0.62em;
+	font-weight: normal;
+	color: black;
+	line-height: 1.5em;
+	width: 37em;
+}
+.picmessage1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 0.5em; 
+margin-left: 0.5em;
+}
+
+
+
+#message2
+{
+	position: absolute;
+margin-top: 11.75em;
+ width:26.4em;
+ height:4.6em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.nomaro2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.1em; 
+margin-left: 15.8em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+#message3
+{
+	position: absolute;
+margin-top: 16.45em;
+ width:26.4em;
+ height:3.8em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.littlelgbt2
+{
+	position: absolute;
+margin-top: 0.25em;
+margin-left: 6.4em;
+}
+.nomaro3
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 13em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+#message4
+{
+	position: absolute;
+margin-top: 20.35em;
+ width:26.4em;
+ height:5.6em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.nomaro4
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 9.5em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+.gris
+{
+color: rgb(101, 119, 134)
+}
+
+.bleu
+{
+color:rgb(73, 153, 180);
+}
+
+.noir
+{
+color:black;
+}
+
+
+
+
+
+
+

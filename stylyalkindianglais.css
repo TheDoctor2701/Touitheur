@@ -1,0 +1,621 @@
+body
+{
+background-color: rgb(230, 236, 240);
+margin : 0em ;
+font-family: sans-serif;
+position: absolute;
+}
+
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+color: rgb(93, 173, 226);
+}
+
+
+li
+{
+list-style-type: none;
+}
+
+
+#fixe
+{
+	z-index:1000;
+position: fixed;
+}
+
+.carre
+{
+	z-index:1100;
+position: fixed;
+	margin-top: 2.7em;
+width:12.2em;
+height:0.2em;
+background-color: rgb(93, 173, 226);
+margin-left:17.75em;
+}
+.barrederecherche
+{
+	margin-top: -0.6em;
+	margin-left: 65em;
+position: absolute;
+}
+.carre2
+{
+	position: absolute;
+	display: inline-flex;
+width:11em;
+height:2em;
+background-color: rgb(230, 233, 235);
+margin-left:0em;
+}
+.rond
+{
+	position: absolute;
+	display: inline-flex;
+ width:2em;
+ height:2em;
+ border-radius:50%;
+ background:rgb(230, 233, 235);
+ margin-left:-1.1em;
+}
+.rond2
+{
+	position: absolute;
+	display: inline-flex;
+ width:2em;
+ height:2em;
+ border-radius:50%;
+ background:rgb(230, 233, 235);
+ margin-left:10em;
+}
+.carre2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+width:10.7em;
+height:1.75em;
+background-color: rgb(245, 248, 250);
+margin-left:0em;
+}
+.rondbis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:1.75em;
+ height:1.75em;
+ border-radius:50%;
+ background:rgb(245, 248, 250);
+ margin-left:-1em;
+}
+.rond2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:1.75em;
+ height:1.75em;
+ border-radius:50%;
+ background:rgb(245, 248, 250);
+ margin-left:10.1em;
+}
+.recherche
+{
+	position: absolute;
+	display: inline-flex;
+width:11em;
+height:1.8em;
+margin-left:83.5em;
+margin-top: 1.5em;
+font-size: 0.75em;
+color: grey;
+font-weight: normal;
+}
+#entete
+{
+margin-top: 0em;
+ width:100em;
+ height:2.85em;
+ background:white;
+ font-weight: bold
+}	
+.entete
+{
+	position: absolute;
+	margin-top: 1em;
+font-size: 0.9em;
+display: inline;
+margin-left: 21.6em;
+}
+.pigeon
+{
+	margin-top: 0.4em;
+position: absolute;
+
+display: inline-block;
+margin-left:46.5em;
+}
+
+
+
+.carre42
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.5em;
+width:12.2em;
+height:2.15em;
+background-color: rgb(93, 173, 226);
+margin-left:82em;
+}
+
+.carre43
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.35em;
+width:11.95em;
+height:1.9em;
+background-color: white;
+margin-left:82.1em;
+}
+
+.recherche42
+{
+		z-index:1100;
+	position: absolute;
+width:11em;
+height:1.8em;
+margin-left:105.5em;
+margin-top: -2.35em;
+font-size: 0.8em;
+font-weight: bold;
+}
+
+
+
+.picprofil
+{
+	margin-top: 0.25em;
+position: absolute;
+display: inline-block;
+margin-left:76em;
+}
+#banniere
+{
+display: inline-block;
+margin-left: 0em;
+margin-top: 2.7em;
+ width:100em;
+ height:26.35em;
+}
+#bigpic
+{
+display: inline-block;
+margin-left: 12.9em;
+margin-top: -8.5em;
+ width:12.5em;
+ height:12.5em;
+}
+.carre5 
+{
+
+margin-top: -5.35em;
+ width:100em;
+ height:3.8em;
+ background:white;
+}
+#barreprofil
+{
+
+font-size: 0.90em;
+font-weight: bold;
+margin-left: 38em;
+margin-top: -3.1em;
+ width:40em;
+ height:5em;
+ color: rgb(101, 119, 134);
+}
+.barreprofil
+{
+margin-top:-0.5em;
+margin-left: -2.5em;
+	font-size: 0.9em;
+display: inline-block;
+}
+#chiffreprofil
+{
+
+	font-size: 1.3em;
+font-weight: bold;
+margin-left: 24.55em;
+margin-top: -2.8em;
+ width:40em;
+ height:5em;
+}
+#tn
+{
+font-size: 1.4em;
+font-weight: bold;
+margin-left: 9.3em;
+margin-top: -1.5em;
+ width:10em;
+ height:5em;
+ color:black;
+}
+#description
+{
+list-style-type: none;
+margin-left: 13em;
+margin-top: -5.4em;
+ width:18em;
+ height:10em;
+}
+.tnn
+{
+font-size: 0.85em;
+color: rgb(101, 119, 134);
+}
+.description
+{
+	line-height: 1.55em;
+font-size: 0.86em;
+margin-top: 1em;
+}
+.date2
+{
+font-size: 0.90em;
+color: rgb(101, 119, 134);
+margin-left: 1.5em;
+margin-top: 0.5em;
+}
+.entetetweet
+{
+margin-top: -13.4em;
+ width:36.5em;
+ height:2.9em;
+ background:white;
+ margin-left: 31.5em;
+}
+.entetetweet2
+{
+	position: absolute;
+display: inline-block;
+margin-top: 0.2em;
+font-size: 0.8em;
+margin-left: 1em;
+}
+#entetetweet
+{
+	position: absolute;
+font-size: 1.4em;
+font-weight: bold;
+margin-left: 22.1em;
+margin-top: -1.5em;
+ width:40em;
+ height:5em;
+}
+.tm
+{
+	margin-top: 0.2em; 
+	margin-left: 0.95em;
+	position: absolute;
+	font-size: 0.8em;
+}
+
+
+#suggestion
+{
+	position: absolute;
+margin-top: -2.1em;
+ width:12.9em;
+ height:11.5em;
+ background:white;
+ margin-left: 49.1em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.suggestion
+{
+position: absolute;
+display: inline-block;
+margin-top: 1em;
+font-size: 0.8em;
+margin-left: 0.7em;
+}
+
+.picsuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.35em; 
+margin-left: 0.5em;
+}
+
+.pseudosuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.1em; 
+margin-left: 5.3em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.tnsuggestionleon
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.3em; 
+margin-left: 16.5em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+.traitgris
+{
+	position: absolute;
+margin-top: 4.85em;
+margin-left: 0.7em;
+ width:11.5em;
+ height:0.04em;
+ background:rgb(230, 236, 240);
+}
+
+.picsuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 5.5em; 
+margin-left: 0.5em;
+}
+
+.pseudosuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 10.3em; 
+margin-left: 5.3em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.littlelgbt
+{
+	position: absolute;
+margin-top: 5.9em;
+margin-left: 6.7em;
+}
+
+.tnsuggestionalan
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 10.9em; 
+margin-left: 13.7em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+.traitgris2
+{
+	position: absolute;
+margin-top: 8em;
+margin-left: 0.7em;
+ width:11.5em;
+ height:0.05em;
+ background:rgb(230, 236, 240);
+}
+
+.picsuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 8.7em; 
+margin-left: 0.55em;
+}
+
+.pseudosuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 15.6em; 
+margin-left: 5.2em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.tnsuggestioncesar
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 16.4em; 
+margin-left: 12em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+
+
+
+
+
+#epingle
+{
+	position: absolute;
+margin-top: 0.1em;
+ width:26.05em;
+ height:6.2em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.tweetepingle
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 0.6em; 
+margin-left: 5.2em;
+	font-size: 0.55em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+.nom
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2em; 
+margin-left: 4.9em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+.nomaro
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.15em; 
+margin-left: 9.5em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+.message
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 3.3em; 
+margin-left: 4.7em;
+	font-size: 0.62em;
+	font-weight: normal;
+	color: black;
+	line-height: 1.5em;
+}
+.picmessage
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1em; 
+margin-left: 0.5em;
+}
+
+
+
+
+
+#message
+{
+	position: absolute;
+margin-top: 6.4em;
+ width:26.05em;
+ height:4.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.nom2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1em; 
+margin-left: 4.9em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.nomaro2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 9.5em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+.message2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.3em; 
+margin-left: 4.7em;
+ width:35.05em;
+	font-size: 0.62em;
+	font-weight: normal;
+	color: black;
+	line-height: 1.5em;
+}
+.picmessage2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 0.5em; 
+margin-left: 0.5em;
+}
+
+
+#message2
+{
+	position: absolute;
+margin-top: 11.11em;
+ width:26.05em;
+ height:4.7em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+#message3
+{
+	position: absolute;
+margin-top: 15.9em;
+ width:26.05em;
+ height:3.7em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+
+.gris
+{
+color: rgb(101, 119, 134)
+}
+
+.bleu
+{
+color:rgb(73, 153, 180);
+}
+
+.noir
+{
+color:black;
+}
+
+
+
+
+
+
+
