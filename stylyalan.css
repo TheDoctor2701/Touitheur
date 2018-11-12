@@ -645,8 +645,46 @@ margin-left: 0.5em;
 
 
 
+#message2
+{
+	position: absolute;
+margin-top: 10.3em;
+ width:26.05em;
+ height:18.7em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.imagemessagealan
+{
+		position: absolute;
+	margin-top: 3em;
+ margin-left: 3em;
+width: 22em;
+ border-radius: 1%
+}
 
 
+
+#message3
+{
+	position: absolute;
+margin-top: 29.1em;
+ width:26.05em;
+ height:14em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.imagemessagealan2
+{
+		position: absolute;
+	margin-top: 3.6em;
+ margin-left: 8em;
+ border-radius: 1%
+}
 
 
 

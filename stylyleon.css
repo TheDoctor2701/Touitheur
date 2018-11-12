@@ -638,8 +638,52 @@ margin-left: 0.5em;
 
 
 
+#message3
+{
+	position: absolute;
+margin-top: 15.85em;
+ width:26.05em;
+ height:3.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
 
 
+
+#message4
+{
+	position: absolute;
+margin-top: 19.55em;
+ width:26.05em;
+ height:4.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+
+#message5
+{
+	position: absolute;
+margin-top: 24.25em;
+ width:26.05em;
+ height:17em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.imagemessageleon
+{
+		position: absolute;
+	margin-top: 4em;
+ margin-left: 3em;
+width: 22em;
+ border-radius: 1%
+}
 
 
 
