@@ -5,13 +5,6 @@ margin : 0em ;
 font-family: sans-serif;
 }
 
-h1
-{
-	color: rgb(73, 153, 180) ;
-	margin-top: 0.4em;
-	margin-left: 3.8em;
-font-size: 3em;
-}
 
 a
 {
@@ -31,58 +24,71 @@ list-style-type: none;
 
 
 
-
-
-#entete
-{
-	z-index: 1000;
-	position: fixed;
-margin-top: 0em;
- width:100%;
- height:2.85em;
- background:white;
- font-weight: bold
-}	
-.entete
-{
-	margin-top: 1em;
-font-size: 0.9em;
-
-margin-left: 15%;
+#entete {
+    top: 0px;
+    left:50%;
+    height: 2.9em;
+    margin-left: -900px;
+    position: fixed;
+    background-color: white;
+    width: 1800px;
+    z-index: 1;
+    text-align: center;
+    display: block;    
 }
-.pigeon
+.carres
 {
-	margin-top: -2.7em;
-margin-left: 50%;
-}
-.carre
-{
-	margin-top: -0.2em;
+	z-index:1100;
+		position: fixed;
+	margin-top: 2.7em;
 width:12.2em;
 height:0.2em;
 background-color: rgb(93, 173, 226);
-margin-left:15%;
+margin-left: 18%;
+}
+.carre
+{
+position: absolute;
+	display: inline-flex;
+margin-left:-29.2em;
+margin-top: 2.7em;
+width:12.2em;
+height:0.2em;
+background-color: rgb(93, 173, 226); 
+}
+.entete
+{
+	 font-weight: bold;
+	position: absolute;
+	margin-top: 1em;
+font-size: 0.9em;
+display: inline;
+margin-left: -25%;
+
 }
 
 
-#recherche
+.barrederecherche
 {
-	margin-left: 65%;
+	margin-top: -2.5em;
+	margin-left: 68em;
+position: absolute;
 }
 .carre2
 {
 	position: absolute;
-	margin-top: -2.3em;
+	display: inline-flex;
 width:11em;
 height:2em;
 background-color: rgb(230, 233, 235);
+margin-left:0em;
 }
 .rond
 {
 	position: absolute;
+	display: inline-flex;
  width:2em;
  height:2em;
- 	margin-top: -2.3em;
  border-radius:50%;
  background:rgb(230, 233, 235);
  margin-left:-1.1em;
@@ -90,38 +96,28 @@ background-color: rgb(230, 233, 235);
 .rond2
 {
 	position: absolute;
+	display: inline-flex;
  width:2em;
  height:2em;
- 	margin-top: -2.3em;
  border-radius:50%;
  background:rgb(230, 233, 235);
  margin-left:10em;
 }
-.recherche
-{
-	margin-left: 0em;
-position: absolute;
-font-size: 0.75em;
-color: grey;
-font-weight: normal;
-margin-top: -2.3em;
-}
-
-
 .carre2bis
 {
 	position: absolute;
-	margin-left: 0.18em;
-	margin-top: -2.2em;
+	margin-top: 0.1em;
+	display: inline-flex;
 width:10.7em;
 height:1.75em;
 background-color: rgb(245, 248, 250);
+margin-left:0em;
 }
 .rondbis
 {
 	position: absolute;
-	margin-top: -2.2em;
-
+	margin-top: 0.1em;
+	display: inline-flex;
  width:1.75em;
  height:1.75em;
  border-radius:50%;
@@ -131,26 +127,79 @@ background-color: rgb(245, 248, 250);
 .rond2bis
 {
 	position: absolute;
-	margin-top: -2.2em;
-
+	margin-top: 0.1em;
+	display: inline-flex;
  width:1.75em;
  height:1.75em;
  border-radius:50%;
  background:rgb(245, 248, 250);
  margin-left:10.1em;
 }
-
-.picprofil
+.recherche
 {
 	position: absolute;
-	margin-top: -2.6em;
-	margin-left:13em;
+	display: inline-flex;
+width:15em;
+height:1.8em;
+margin-left:13em;
+margin-top: 1.4em;
+font-size: 0.75em;
+color: grey;
+font-weight: normal;
+}
+
+.pigeon
+{
+	margin-top: 0.4em;
+background-position: center;
+position: relative;
+
+display: inline-block;
 }
 
 
 
+.carre42
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.58em;
+width:12.2em;
+height:2.15em;
+background-color: rgb(93, 173, 226);
+margin-left:84em;
+}
 
+.carre43
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.45em;
+width:11.95em;
+height:1.9em;
+background-color: white;
+margin-left:84.1em;
+}
 
+.recherche42
+{
+		z-index:1100;
+	position: absolute;
+width:11em;
+height:1.8em;
+margin-left:33.7em;
+margin-top: 1.2em;
+font-size: 0.8em;
+font-weight: bold;
+}
+
+.picprofil
+{
+	margin-top: 0.25em;
+position: absolute;
+display: inline-block;
+margin-left:22.3em;
+}
 
 
 
@@ -643,49 +692,107 @@ margin-top: 0.5em;
 margin-left: 0.5em;
 }
 
+#message25
+{
+	position: absolute;
+margin-top: 10.29em;
+ width:26.05em;
+ height:3em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
 
 
 #message2
 {
 	position: absolute;
-margin-top: 10.3em;
+margin-top: 13.35em;
  width:26.05em;
- height:18.7em;
+ height:13.6em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
-.imagemessagealan
-{
-		position: absolute;
-	margin-top: 3em;
- margin-left: 3em;
-width: 22em;
- border-radius: 1%
-}
-
 
 
 #message3
 {
 	position: absolute;
-margin-top: 29.1em;
+margin-top: 27.03em;
  width:26.05em;
- height:14em;
+ height:13.6em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
+
 .imagemessagealan2
 {
-		position: absolute;
-	margin-top: 3.6em;
- margin-left: 8em;
+	position: absolute;
+margin-top: 3.8em;
+ margin-left: 3em;
+ width: 22em;
  border-radius: 1%
 }
 
+
+#message4
+{
+	position: absolute;
+margin-top: 40.75em;
+ width:26.05em;
+ height:3.75em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+
+#message5
+{
+	position: absolute;
+margin-top: 44.58em;
+ width:26.05em;
+ height:18.5em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.imagemessagealan4
+{
+	position: absolute;
+margin-top: 2.8em;
+ margin-left: 3em;
+ width: 22em;
+ border-radius: 1%
+}
+
+
+#message6
+{
+	position: absolute;
+margin-top: 63.2em;
+ width:26.05em;
+ height:14.4em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.imagemessagealan3
+{
+	position: absolute;
+margin-top: 3.8em;
+ margin-left: 7em;
+ width: 10em;
+ border-radius: 1%
+}
 
 
 

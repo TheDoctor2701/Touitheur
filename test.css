@@ -63,7 +63,7 @@ background-color: rgb(93, 173, 226);
 	margin-top: 1em;
 font-size: 0.9em;
 display: inline;
-margin-left: -24.5%;
+margin-left: -25%;
 
 }
 
@@ -167,7 +167,7 @@ position: fixed;
 width:12.2em;
 height:2.15em;
 background-color: rgb(93, 173, 226);
-margin-left:84em;
+margin-left:81em;
 }
 
 .carre43
@@ -178,7 +178,7 @@ position: fixed;
 width:11.95em;
 height:1.9em;
 background-color: white;
-margin-left:84.1em;
+margin-left:81.1em;
 }
 
 .recherche42
@@ -187,23 +187,22 @@ margin-left:84.1em;
 	position: absolute;
 width:11em;
 height:1.8em;
-margin-left:33.7em;
+margin-left:30em;
 margin-top: 1.2em;
 font-size: 0.8em;
 font-weight: bold;
 }
+
+
+
 
 .picprofil
 {
 	margin-top: 0.25em;
 position: absolute;
 display: inline-block;
-margin-left:22.3em;
+margin-left:76em;
 }
-
-
-
-
 #banniere
 {
 display: inline-block;
@@ -458,7 +457,7 @@ margin-left: 5.2em;
 	position: absolute;
 	display: inline-block;
 margin-top: 16.4em; 
-margin-left: 13em;
+margin-left: 12em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -539,7 +538,7 @@ margin-left: 0.5em;
 	position: absolute;
 margin-top: 6.4em;
  width:26.05em;
- height:4.6em;
+ height:5.6em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -591,7 +590,7 @@ margin-left: 0.5em;
 #message2
 {
 	position: absolute;
-margin-top: 11.11em;
+margin-top: 12.08em;
  width:26.05em;
  height:4.7em;
  background:white;
@@ -603,9 +602,9 @@ font-weight: bold;
 #message3
 {
 	position: absolute;
-margin-top: 15.9em;
+margin-top: 16.85em;
  width:26.05em;
- height:3.7em;
+ height:4.7em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -613,11 +612,10 @@ font-weight: bold;
 }
 
 
-
 #message4
 {
 	position: absolute;
-margin-top: 19.7em;
+margin-top: 21.62em;
  width:26.05em;
  height:24em;
  background:white;
@@ -647,97 +645,9 @@ border-radius: 1%;
 }
 
 
-
-
-#message5
-{
-	position: absolute;
-margin-top: 43.75em;
- width:26.05em;
- height:21.6em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-.imagemessagealkindi2
-{
-	position: absolute;
-	margin-top: -7em;
- width: 22.5em;
-}
-
-.tutut2
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 16em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
-
-
-#message6
-{
-	position: absolute;
-margin-top: 65.4em;
- width:26.05em;
- height:3.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message7
-{
-	position: absolute;
-margin-top: 69.15em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message8
-{
-	position: absolute;
-margin-top: 73.73em;
- width:26.05em;
- height:5.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message9
-{
-	position: absolute;
-margin-top: 79.3em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-
 .gris
 {
-color: rgb(101, 119, 134)
+color: rgb(101, 119, 134);
 }
 
 .bleu

@@ -5,6 +5,13 @@ margin : 0em ;
 font-family: sans-serif;
 }
 
+h1
+{
+	font-size: 3em;
+	margin-top: 0.45em;
+	text-align: center;
+color:rgb(73, 153, 180);
+}
 
 a
 {
@@ -63,7 +70,7 @@ background-color: rgb(93, 173, 226);
 	margin-top: 1em;
 font-size: 0.9em;
 display: inline;
-margin-left: -24.5%;
+margin-left: -25%;
 
 }
 
@@ -204,38 +211,55 @@ margin-left:22.3em;
 
 
 
-#banniere
+
+
+.banniere
 {
 display: inline-block;
+position: absolute;
 margin-left: 0em;
-margin-top: 2.7em;
- width:100em;
+margin-top: -5.95em;
+ width:20em;
  height:26.35em;
 }
-#bigpic
+
+#description
 {
 display: inline-block;
-margin-left: 12.9em;
-margin-top: -8.5em;
- width:12.5em;
- height:12.5em;
+position: absolute;
+background-color: white;
+margin-top: 9.45em;
+margin-left: 12.45em;
+height:7.35em;
+width: 17.9em;
 }
-.carre5 
-{
 
-margin-top: -5.35em;
- width:100em;
- height:3.8em;
- background:white;
+.pseudo
+{
+font-size: 1.2em;
+font-weight: bold;
+margin-left: 4.7em;
+margin-top: 0.5em;
+ color:black;
 }
+
+.tn
+{
+font-size: 0.78em;
+color: rgb(101, 119, 134);
+margin-left: 7.2em;
+margin-top: 0.2em;
+}
+
+
 #barreprofil
 {
-
-font-size: 0.90em;
+position: absolute;
+font-size: 0.85em;
 font-weight: bold;
-margin-left: 38em;
-margin-top: -3.1em;
- width:40em;
+margin-left: 18em;
+margin-top: 16em;
+ width:20em;
  height:5em;
  color: rgb(101, 119, 134);
 }
@@ -248,89 +272,62 @@ display: inline-block;
 }
 #chiffreprofil
 {
-
-	font-size: 1.3em;
+	position: absolute;
+	font-size: 1.1em;
 font-weight: bold;
-margin-left: 24.55em;
-margin-top: -2.8em;
+margin-left: 12.2em;
+margin-top: 13.4em;
  width:40em;
  height:5em;
 }
-#tn
+
+#titre
 {
-font-size: 1.4em;
+position: absolute;
+background-color: white;
+margin-top: 3.55em;
+margin-left:31em;
+width: 37em;
+height:6em;
+}
+
+
+#tendance
+{
+position: absolute;
+ width:17.9em;
+ height:26em;
+ background-color: white;
+ margin-left: 12.45em;
+margin-top: 17.55em;
+}
+
+.tendance
+{
+font-size: 1.1em;
 font-weight: bold;
-margin-left: 9.3em;
-margin-top: -1.5em;
- width:10em;
- height:5em;
+margin-left: 0.8em;
+margin-top: 1em;
  color:black;
 }
-#description
+
+ul
 {
-list-style-type: none;
-margin-left: 13em;
-margin-top: -5.4em;
- width:18em;
- height:10em;
-}
-.tnn
-{
-font-size: 0.85em;
-color: rgb(101, 119, 134);
-}
-.description
-{
-	line-height: 1.55em;
-font-size: 0.86em;
-margin-top: 1em;
-}
-.date2
-{
-font-size: 0.90em;
-color: rgb(101, 119, 134);
-margin-left: 1.5em;
-margin-top: 0.5em;
-}
-.entetetweet
-{
-margin-top: -13.4em;
- width:36.5em;
- height:2.9em;
- background:white;
- margin-left: 31.5em;
-}
-.entetetweet2
-{
-	position: absolute;
-display: inline-block;
-margin-top: 0.2em;
-font-size: 0.8em;
-margin-left: 1em;
-}
-#entetetweet
-{
-	position: absolute;
-font-size: 1.4em;
+font-size: 0.95em;
+position: absolute;
+margin-left: -1.5em;
+line-height: 1.8em;
 font-weight: bold;
-margin-left: 22.1em;
-margin-top: -1.5em;
- width:40em;
- height:5em;
+margin-top: 0.2em;
 }
-.tm
-{
-	margin-top: 0.2em; 
-	margin-left: 0.95em;
-	position: absolute;
-	font-size: 0.8em;
-}
+
+
 
 
 #suggestion
 {
 	position: absolute;
-margin-top: -2.1em;
+margin-top: 2.55em;
  width:12.9em;
  height:11.5em;
  background:white;
@@ -458,6 +455,116 @@ margin-left: 5.2em;
 	position: absolute;
 	display: inline-block;
 margin-top: 16.4em; 
+margin-left: 12em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+
+
+#message1
+{
+	position: absolute;
+margin-top: 6.95em;
+ width:26.4em;
+ height:4.7em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.nom1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1em; 
+margin-left: 4.9em;
+	font-size: 0.6em;
+	color:black;
+	font-weight: bold;
+}
+
+.nomaro1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 11.2em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+.message1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 2.3em; 
+margin-left: 4.7em;
+	font-size: 0.62em;
+	font-weight: normal;
+	color: black;
+	line-height: 1.5em;
+	width: 37em;
+}
+.picmessage1
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 0.5em; 
+margin-left: 0.5em;
+}
+
+
+
+#message2
+{
+	position: absolute;
+margin-top: 11.75em;
+ width:26.4em;
+ height:4.6em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+.nomaro2
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.1em; 
+margin-left: 15.8em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
+}
+
+
+#message3
+{
+	position: absolute;
+margin-top: 16.45em;
+ width:26.4em;
+ height:3.8em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.littlelgbt2
+{
+	position: absolute;
+margin-top: 0.25em;
+margin-left: 6.4em;
+}
+.nomaro3
+{
+	position: absolute;
+	display: inline-block;
+margin-top: 1.06em; 
 margin-left: 13em;
 	font-size: 0.57em;
 	font-weight: normal;
@@ -465,99 +572,18 @@ margin-left: 13em;
 }
 
 
-
-
-
-
-
-#epingle
+#message4
 {
 	position: absolute;
-margin-top: 0.1em;
- width:26.05em;
- height:6.2em;
+margin-top: 20.35em;
+ width:26.4em;
+ height:5.6em;
  background:white;
- margin-left: 22.5em;
+ margin-left: 22.15em;
  font-size: 1.4em;
 font-weight: bold;
 }
-.tweetepingle
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 0.6em; 
-margin-left: 5.2em;
-	font-size: 0.55em;
-	font-weight: normal;
-	color: rgb(101, 119, 134);
-}
-.nom
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 2em; 
-margin-left: 4.9em;
-	font-size: 0.6em;
-	color:black;
-	font-weight: bold;
-}
-.nomaro
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 2.15em; 
-margin-left: 9.5em;
-	font-size: 0.57em;
-	font-weight: normal;
-	color: rgb(101, 119, 134);
-}
-.message
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 3.3em; 
-margin-left: 4.7em;
-	font-size: 0.62em;
-	font-weight: normal;
-	color: black;
-	line-height: 1.5em;
-}
-.picmessage
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 1em; 
-margin-left: 0.5em;
-}
-
-
-
-
-
-#message
-{
-	position: absolute;
-margin-top: 6.4em;
- width:26.05em;
- height:4.6em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-.nom2
-{
-	position: absolute;
-	display: inline-block;
-margin-top: 1em; 
-margin-left: 4.9em;
-	font-size: 0.6em;
-	color:black;
-	font-weight: bold;
-}
-
-.nomaro2
+.nomaro4
 {
 	position: absolute;
 	display: inline-block;
@@ -567,61 +593,103 @@ margin-left: 9.5em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
 }
-.message2
+
+
+#message5
+{
+	position: absolute;
+margin-top: 26.02em;
+ width:26.4em;
+ height:6.65em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.nomaro5
 {
 	position: absolute;
 	display: inline-block;
-margin-top: 2.3em; 
-margin-left: 4.7em;
- width:35.05em;
-	font-size: 0.62em;
+margin-top: 1.06em; 
+margin-left: 11.2em;
+	font-size: 0.57em;
 	font-weight: normal;
-	color: black;
-	line-height: 1.5em;
+	color: rgb(101, 119, 134);
 }
-.picmessage2
+
+
+.chiffrement
+{
+	margin-top: 4.4em;
+	margin-left: 4.2em;
+border-collapse: collapse;
+font-size: 0.85em;
+}
+
+td
+{
+border: 1.1px solid black;
+}
+
+
+#message6
+{
+	position: absolute;
+margin-top: 32.78em;
+ width:26.4em;
+ height:3em;
+ background:white;
+ margin-left: 22.15em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.nomaro6
 {
 	position: absolute;
 	display: inline-block;
-margin-top: 0.5em; 
-margin-left: 0.5em;
+margin-top: 1.06em; 
+margin-left: 17.4em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
 }
 
 
-#message2
+#message7
 {
 	position: absolute;
-margin-top: 11.11em;
- width:26.05em;
- height:4.7em;
+margin-top: 35.85em;
+ width:26.4em;
+ height:5.5em;
  background:white;
- margin-left: 22.5em;
+ margin-left: 22.15em;
  font-size: 1.4em;
 font-weight: bold;
 }
 
-#message3
+.nomaro7
 {
 	position: absolute;
-margin-top: 15.9em;
- width:26.05em;
- height:3.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
+	display: inline-block;
+margin-top: 1.06em; 
+margin-left: 16em;
+	font-size: 0.57em;
+	font-weight: normal;
+	color: rgb(101, 119, 134);
 }
 
 
 
-#message4
+#message8
 {
 	position: absolute;
-margin-top: 19.7em;
- width:26.05em;
- height:24em;
+margin-top: 41.45em;
+ width:26.4em;
+ height:22.5em;
  background:white;
- margin-left: 22.5em;
+ margin-left: 22.15em;
  font-size: 1.4em;
 font-weight: bold;
 }
@@ -637,7 +705,7 @@ font-weight: bold;
 .tutut
 {
 	margin-left: 2.9em;
-	margin-top: 4.8em;
+	margin-top: 4em;
 width: 22.8em;
 height: 18.1em;
 border: 0.05em;
@@ -646,92 +714,11 @@ border-color: rgb(230, 236, 240);
 border-radius: 1%;
 }
 
-
-
-
-#message5
+.td2
 {
-	position: absolute;
-margin-top: 43.75em;
- width:26.05em;
- height:21.6em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-.imagemessagealkindi2
-{
-	position: absolute;
-	margin-top: -7em;
- width: 22.5em;
+border:none;
 }
 
-.tutut2
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 16em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
-
-
-#message6
-{
-	position: absolute;
-margin-top: 65.4em;
- width:26.05em;
- height:3.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message7
-{
-	position: absolute;
-margin-top: 69.15em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message8
-{
-	position: absolute;
-margin-top: 73.73em;
- width:26.05em;
- height:5.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message9
-{
-	position: absolute;
-margin-top: 79.3em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
 
 
 
@@ -751,7 +738,30 @@ color:black;
 }
 
 
+.rouge
+{
+color : red;
+}
 
+.orange
+{
+color : orange;
+}
+
+.jaune
+{
+color : yellow;
+}
+
+.vert
+{
+color : green;
+}
+
+.bleu2
+{
+color: blue;
+}
 
 
 

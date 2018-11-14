@@ -3,7 +3,6 @@ body
 background-color: rgb(230, 236, 240);
 margin : 0em ;
 font-family: sans-serif;
-position: absolute;
 }
 
 
@@ -24,26 +23,55 @@ list-style-type: none;
 }
 
 
-#fixe
-{
-	z-index:1000;
-position: fixed;
-}
 
-.carre
+#entete {
+    top: 0px;
+    left:50%;
+    height: 2.9em;
+    margin-left: -900px;
+    position: fixed;
+    background-color: white;
+    width: 1800px;
+    z-index: 1;
+    text-align: center;
+    display: block;    
+}
+.carres
 {
 	z-index:1100;
-position: fixed;
+		position: fixed;
 	margin-top: 2.7em;
 width:12.2em;
 height:0.2em;
 background-color: rgb(93, 173, 226);
-margin-left:17.75em;
+margin-left: 18%;
 }
+.carre
+{
+position: absolute;
+	display: inline-flex;
+margin-left:-29.2em;
+margin-top: 2.7em;
+width:12.2em;
+height:0.2em;
+background-color: rgb(93, 173, 226); 
+}
+.entete
+{
+	 font-weight: bold;
+	position: absolute;
+	margin-top: 1em;
+font-size: 0.9em;
+display: inline;
+margin-left: -24.5%;
+
+}
+
+
 .barrederecherche
 {
-	margin-top: -0.6em;
-	margin-left: 65em;
+	margin-top: -2.5em;
+	margin-left: 68em;
 position: absolute;
 }
 .carre2
@@ -111,45 +139,71 @@ margin-left:0em;
 {
 	position: absolute;
 	display: inline-flex;
-width:11em;
+width:15em;
 height:1.8em;
-margin-left:83.5em;
-margin-top: 1.5em;
+margin-left:13em;
+margin-top: 1.4em;
 font-size: 0.75em;
 color: grey;
 font-weight: normal;
 }
-#entete
-{
-margin-top: 0em;
- width:100em;
- height:2.85em;
- background:white;
- font-weight: bold
-}	
-.entete
-{
-	position: absolute;
-	margin-top: 1em;
-font-size: 0.9em;
-display: inline;
-margin-left: 21em;
-}
+
 .pigeon
 {
 	margin-top: 0.4em;
-position: absolute;
+background-position: center;
+position: relative;
 
 display: inline-block;
-margin-left:46.5em;
 }
+
+
+
+.carre42
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.58em;
+width:12.2em;
+height:2.15em;
+background-color: rgb(93, 173, 226);
+margin-left:84em;
+}
+
+.carre43
+{
+	z-index:1100;
+position: fixed;
+	margin-top: -2.45em;
+width:11.95em;
+height:1.9em;
+background-color: white;
+margin-left:84.1em;
+}
+
+.recherche42
+{
+		z-index:1100;
+	position: absolute;
+width:11em;
+height:1.8em;
+margin-left:33.7em;
+margin-top: 1.2em;
+font-size: 0.8em;
+font-weight: bold;
+}
+
 .picprofil
 {
 	margin-top: 0.25em;
 position: absolute;
 display: inline-block;
-margin-left:76em;
+margin-left:22.3em;
 }
+
+
+
+
 #banniere
 {
 display: inline-block;
@@ -490,7 +544,7 @@ margin-left: 5.2em;
 	position: absolute;
 	display: inline-block;
 margin-top: 16.4em; 
-margin-left: 12em;
+margin-left: 13em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -528,7 +582,7 @@ margin-left: 5.2em;
 	position: absolute;
 margin-top: 6.4em;
  width:26.05em;
- height:5.6em;
+ height:4.7em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -565,6 +619,7 @@ margin-left: 4.7em;
 	font-weight: normal;
 	color: black;
 	line-height: 1.5em;
+	width: 36em;
 }
 .picmessage
 {
@@ -579,7 +634,7 @@ margin-left: 0.5em;
 #message2
 {
 	position: absolute;
-margin-top: 12.07em;
+margin-top: 11.18em;
  width:26.05em;
  height:4.6em;
  background:white;
@@ -621,7 +676,7 @@ margin-left: 4.7em;
 	font-weight: normal;
 	color: black;
 	line-height: 1.5em;
-	width: 37em;
+	width: 36em;
 }
 .picmessage2
 {
@@ -635,7 +690,63 @@ margin-left: 0.5em;
 
 
 
+#message3
+{
+	position: absolute;
+margin-top: 15.85em;
+ width:26.05em;
+ height:3.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
 
+
+
+#message4
+{
+	position: absolute;
+margin-top: 19.55em;
+ width:26.05em;
+ height:4.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+
+#message5
+{
+	position: absolute;
+margin-top: 24.25em;
+ width:26.05em;
+ height:17.5em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.imageleon1
+{
+	position: absolute;
+	margin-top: -6.2em;
+ width: 22em;
+}
+
+.tutut
+{
+	margin-left: 2.9em;
+	margin-top: 4em;
+width: 22.8em;
+height: 13em;
+border: 0.05em;
+border-style: solid;
+border-color: rgb(230, 236, 240);
+border-radius: 1%;
+}
 
 
 

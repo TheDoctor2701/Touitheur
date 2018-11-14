@@ -215,15 +215,15 @@ margin-top: 2.7em;
 #bigpic
 {
 display: inline-block;
-margin-left: 12.9em;
-margin-top: -8.5em;
+margin-left: 13.2em;
+margin-top: -7.7em;
  width:12.5em;
  height:12.5em;
 }
 .carre5 
 {
 
-margin-top: -5.35em;
+margin-top: -5.4em;
  width:100em;
  height:3.8em;
  background:white;
@@ -256,6 +256,91 @@ margin-top: -2.8em;
  width:40em;
  height:5em;
 }
+
+
+
+#suivre
+{
+	margin-top: -7.7em;
+	margin-left: 79em;
+position: absolute;
+}
+
+.suivrecarre2
+{
+	position: absolute;
+	display: inline-flex;
+width:4em;
+height:2.5em;
+background-color: rgb(73, 153, 180);
+margin-left:0em;
+}
+.suivrerond
+{
+	position: absolute;
+	display: inline-flex;
+ width:2.5em;
+ height:2.5em;
+ border-radius:50%;
+ background:rgb(73, 153, 180);
+ margin-left:-1.1em;
+}
+.suivrerond2
+{
+	position: absolute;
+	display: inline-flex;
+ width:2.5em;
+ height:2.5em;
+ border-radius:50%;
+ background:rgb(73, 153, 180);
+ margin-left:2.55em;
+}
+.suivrecarre2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+width:3.7em;
+height:2.25em;
+background-color: white;
+margin-left:0em;
+}
+.suivrerondbis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:2.25em;
+ height:2.25em;
+ border-radius:50%;
+ background:white;
+ margin-left:-1em;
+}
+.suivrerond2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:2.25em;
+ height:2.25em;
+ border-radius:50%;
+ background:white;
+ margin-left:2.7em;
+}
+.suivrerecherche
+{
+	position: absolute;
+	display: inline-flex;
+width:11em;
+height:1.8em;
+margin-left:1em;
+margin-top: 1.1em;
+font-size: 0.8em;
+color: rgb(73, 153, 180);
+font-weight: bold;
+}
+
+
 #tn
 {
 font-size: 1.4em;
@@ -274,6 +359,27 @@ margin-top: -5.4em;
  width:18em;
  height:10em;
 }
+
+.biglgbt
+{
+	position: absolute;
+margin-top: -2.5em;
+margin-left: 8.1em;
+}
+
+.littlelgbt2
+{
+	position: absolute;
+margin-top: 0.25em;
+margin-left: 6.4em;
+}
+.littlelgbt3
+{
+	position: absolute;
+margin-top: 0.9em;
+margin-left: 6.4em;
+}
+
 .tnn
 {
 font-size: 0.85em;
@@ -290,7 +396,7 @@ margin-top: 1em;
 font-size: 0.90em;
 color: rgb(101, 119, 134);
 margin-left: 1.5em;
-margin-top: 0.5em;
+margin-top: 1.8em;
 }
 .entetetweet
 {
@@ -325,6 +431,7 @@ margin-top: -1.5em;
 	position: absolute;
 	font-size: 0.8em;
 }
+
 
 
 #suggestion
@@ -458,13 +565,11 @@ margin-left: 5.2em;
 	position: absolute;
 	display: inline-block;
 margin-top: 16.4em; 
-margin-left: 13em;
+margin-left: 12.7em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
 }
-
-
 
 
 
@@ -506,7 +611,7 @@ margin-left: 4.9em;
 	position: absolute;
 	display: inline-block;
 margin-top: 2.15em; 
-margin-left: 9.5em;
+margin-left: 13em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -521,6 +626,7 @@ margin-left: 4.7em;
 	font-weight: normal;
 	color: black;
 	line-height: 1.5em;
+	 width:36em;
 }
 .picmessage
 {
@@ -539,7 +645,7 @@ margin-left: 0.5em;
 	position: absolute;
 margin-top: 6.4em;
  width:26.05em;
- height:4.6em;
+ height:3.8em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -562,7 +668,7 @@ margin-left: 4.9em;
 	position: absolute;
 	display: inline-block;
 margin-top: 1.06em; 
-margin-left: 9.5em;
+margin-left: 13em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -573,7 +679,6 @@ margin-left: 9.5em;
 	display: inline-block;
 margin-top: 2.3em; 
 margin-left: 4.7em;
- width:35.05em;
 	font-size: 0.62em;
 	font-weight: normal;
 	color: black;
@@ -587,152 +692,115 @@ margin-top: 0.5em;
 margin-left: 0.5em;
 }
 
-
-#message2
+#message25
 {
 	position: absolute;
-margin-top: 11.11em;
+margin-top: 10.29em;
  width:26.05em;
- height:4.7em;
+ height:3em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
+}
+
+
+#message2
+{
+	position: absolute;
+margin-top: 13.35em;
+ width:26.05em;
+ height:13.6em;
+ background:white;
+ margin-left: 22.5em;
+ font-size: 1.4em;
+font-weight: bold;
+}
+
+.imagemessagealan
+{
+	position: absolute;
+margin-top: 3.8em;
+ margin-left: 3em;
+ width: 22em;
+ border-radius: 1%
 }
 
 #message3
 {
 	position: absolute;
-margin-top: 15.9em;
+margin-top: 27.03em;
  width:26.05em;
- height:3.7em;
+ height:13.6em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
 
+.imagemessagealan2
+{
+	position: absolute;
+margin-top: 3.8em;
+ margin-left: 3em;
+ width: 22em;
+ border-radius: 1%
+}
 
 
 #message4
 {
 	position: absolute;
-margin-top: 19.7em;
+margin-top: 40.75em;
  width:26.05em;
- height:24em;
+ height:3.75em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
-
-.imagemessagealkindi
-{
-	position: absolute;
-	margin-top: -9.1em;
- width: 22.5em;
- height: 18em;
-}
-
-.tutut
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 18.1em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
 
 
 #message5
 {
 	position: absolute;
-margin-top: 43.75em;
+margin-top: 44.58em;
  width:26.05em;
- height:21.6em;
+ height:18.5em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
-.imagemessagealkindi2
+.imagemessagealan4
 {
 	position: absolute;
-	margin-top: -7em;
- width: 22.5em;
+margin-top: 2.8em;
+ margin-left: 3em;
+ width: 22em;
+ border-radius: 1%
 }
-
-.tutut2
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 16em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
 
 
 #message6
 {
 	position: absolute;
-margin-top: 65.4em;
+margin-top: 63.2em;
  width:26.05em;
- height:3.7em;
+ height:14.4em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
 font-weight: bold;
 }
-
-
-#message7
+.imagemessagealan3
 {
 	position: absolute;
-margin-top: 69.15em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
+margin-top: 3.8em;
+ margin-left: 7em;
+ width: 10em;
+ border-radius: 1%
 }
-
-
-#message8
-{
-	position: absolute;
-margin-top: 73.73em;
- width:26.05em;
- height:5.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message9
-{
-	position: absolute;
-margin-top: 79.3em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
 
 
 .gris
@@ -749,10 +817,3 @@ color:rgb(73, 153, 180);
 {
 color:black;
 }
-
-
-
-
-
-
-

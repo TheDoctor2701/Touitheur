@@ -3,6 +3,7 @@ body
 background-color: rgb(230, 236, 240);
 margin : 0em ;
 font-family: sans-serif;
+position: absolute;
 }
 
 
@@ -23,55 +24,26 @@ list-style-type: none;
 }
 
 
-
-#entete {
-    top: 0px;
-    left:50%;
-    height: 2.9em;
-    margin-left: -900px;
-    position: fixed;
-    background-color: white;
-    width: 1800px;
-    z-index: 1;
-    text-align: center;
-    display: block;    
+#fixe
+{
+	z-index:1000;
+position: fixed;
 }
-.carres
+
+.carre
 {
 	z-index:1100;
-		position: fixed;
+position: fixed;
 	margin-top: 2.7em;
 width:12.2em;
 height:0.2em;
 background-color: rgb(93, 173, 226);
-margin-left: 18%;
+margin-left:17.75em;
 }
-.carre
-{
-position: absolute;
-	display: inline-flex;
-margin-left:-29.2em;
-margin-top: 2.7em;
-width:12.2em;
-height:0.2em;
-background-color: rgb(93, 173, 226); 
-}
-.entete
-{
-	 font-weight: bold;
-	position: absolute;
-	margin-top: 1em;
-font-size: 0.9em;
-display: inline;
-margin-left: -24.5%;
-
-}
-
-
 .barrederecherche
 {
-	margin-top: -2.5em;
-	margin-left: 68em;
+	margin-top: -0.6em;
+	margin-left: 65em;
 position: absolute;
 }
 .carre2
@@ -139,71 +111,45 @@ margin-left:0em;
 {
 	position: absolute;
 	display: inline-flex;
-width:15em;
+width:11em;
 height:1.8em;
-margin-left:13em;
-margin-top: 1.4em;
+margin-left:83.5em;
+margin-top: 1.5em;
 font-size: 0.75em;
 color: grey;
 font-weight: normal;
 }
-
+#entete
+{
+margin-top: 0em;
+ width:100em;
+ height:2.85em;
+ background:white;
+ font-weight: bold
+}	
+.entete
+{
+	position: absolute;
+	margin-top: 1em;
+font-size: 0.9em;
+display: inline;
+margin-left: 21em;
+}
 .pigeon
 {
 	margin-top: 0.4em;
-background-position: center;
-position: relative;
+position: absolute;
 
 display: inline-block;
+margin-left:46.5em;
 }
-
-
-
-.carre42
-{
-	z-index:1100;
-position: fixed;
-	margin-top: -2.58em;
-width:12.2em;
-height:2.15em;
-background-color: rgb(93, 173, 226);
-margin-left:84em;
-}
-
-.carre43
-{
-	z-index:1100;
-position: fixed;
-	margin-top: -2.45em;
-width:11.95em;
-height:1.9em;
-background-color: white;
-margin-left:84.1em;
-}
-
-.recherche42
-{
-		z-index:1100;
-	position: absolute;
-width:11em;
-height:1.8em;
-margin-left:33.7em;
-margin-top: 1.2em;
-font-size: 0.8em;
-font-weight: bold;
-}
-
 .picprofil
 {
 	margin-top: 0.25em;
 position: absolute;
 display: inline-block;
-margin-left:22.3em;
+margin-left:76em;
 }
-
-
-
-
 #banniere
 {
 display: inline-block;
@@ -215,15 +161,15 @@ margin-top: 2.7em;
 #bigpic
 {
 display: inline-block;
-margin-left: 12.9em;
-margin-top: -8.5em;
+margin-left: 13.25em;
+margin-top: -7.7em;
  width:12.5em;
  height:12.5em;
 }
 .carre5 
 {
 
-margin-top: -5.35em;
+margin-top: -5.4em;
  width:100em;
  height:3.8em;
  background:white;
@@ -251,18 +197,103 @@ display: inline-block;
 
 	font-size: 1.3em;
 font-weight: bold;
-margin-left: 24.55em;
+margin-left: 24.95em;
 margin-top: -2.8em;
  width:40em;
  height:5em;
 }
+
+
+
+#suivre
+{
+	margin-top: -7.7em;
+	margin-left: 79em;
+position: absolute;
+}
+
+.suivrecarre2
+{
+	position: absolute;
+	display: inline-flex;
+width:4em;
+height:2.5em;
+background-color: rgb(73, 153, 180);
+margin-left:0em;
+}
+.suivrerond
+{
+	position: absolute;
+	display: inline-flex;
+ width:2.5em;
+ height:2.5em;
+ border-radius:50%;
+ background:rgb(73, 153, 180);
+ margin-left:-1.1em;
+}
+.suivrerond2
+{
+	position: absolute;
+	display: inline-flex;
+ width:2.5em;
+ height:2.5em;
+ border-radius:50%;
+ background:rgb(73, 153, 180);
+ margin-left:2.55em;
+}
+.suivrecarre2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+width:3.7em;
+height:2.25em;
+background-color: white;
+margin-left:0em;
+}
+.suivrerondbis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:2.25em;
+ height:2.25em;
+ border-radius:50%;
+ background:white;
+ margin-left:-1em;
+}
+.suivrerond2bis
+{
+	position: absolute;
+	margin-top: 0.1em;
+	display: inline-flex;
+ width:2.25em;
+ height:2.25em;
+ border-radius:50%;
+ background:white;
+ margin-left:2.7em;
+}
+.suivrerecherche
+{
+	position: absolute;
+	display: inline-flex;
+width:11em;
+height:1.8em;
+margin-left:1em;
+margin-top: 1.1em;
+font-size: 0.8em;
+color: rgb(73, 153, 180);
+font-weight: bold;
+}
+
+
 #tn
 {
 font-size: 1.4em;
 font-weight: bold;
 margin-left: 9.3em;
 margin-top: -1.5em;
- width:10em;
+ width:12em;
  height:5em;
  color:black;
 }
@@ -274,6 +305,8 @@ margin-top: -5.4em;
  width:18em;
  height:10em;
 }
+
+
 .tnn
 {
 font-size: 0.85em;
@@ -290,7 +323,7 @@ margin-top: 1em;
 font-size: 0.90em;
 color: rgb(101, 119, 134);
 margin-left: 1.5em;
-margin-top: 0.5em;
+margin-top: 1.8em;
 }
 .entetetweet
 {
@@ -325,6 +358,7 @@ margin-top: -1.5em;
 	position: absolute;
 	font-size: 0.8em;
 }
+
 
 
 #suggestion
@@ -458,13 +492,11 @@ margin-left: 5.2em;
 	position: absolute;
 	display: inline-block;
 margin-top: 16.4em; 
-margin-left: 13em;
+margin-left: 12em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
 }
-
-
 
 
 
@@ -475,7 +507,7 @@ margin-left: 13em;
 	position: absolute;
 margin-top: 0.1em;
  width:26.05em;
- height:6.2em;
+ height:5.4em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -506,7 +538,7 @@ margin-left: 4.9em;
 	position: absolute;
 	display: inline-block;
 margin-top: 2.15em; 
-margin-left: 9.5em;
+margin-left: 17.2em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -537,9 +569,9 @@ margin-left: 0.5em;
 #message
 {
 	position: absolute;
-margin-top: 6.4em;
+margin-top: 5.65em;
  width:26.05em;
- height:4.6em;
+ height:3.8em;
  background:white;
  margin-left: 22.5em;
  font-size: 1.4em;
@@ -562,7 +594,7 @@ margin-left: 4.9em;
 	position: absolute;
 	display: inline-block;
 margin-top: 1.06em; 
-margin-left: 9.5em;
+margin-left: 17.2em;
 	font-size: 0.57em;
 	font-weight: normal;
 	color: rgb(101, 119, 134);
@@ -573,7 +605,6 @@ margin-left: 9.5em;
 	display: inline-block;
 margin-top: 2.3em; 
 margin-left: 4.7em;
- width:35.05em;
 	font-size: 0.62em;
 	font-weight: normal;
 	color: black;
@@ -588,150 +619,9 @@ margin-left: 0.5em;
 }
 
 
-#message2
-{
-	position: absolute;
-margin-top: 11.11em;
- width:26.05em;
- height:4.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-#message3
-{
-	position: absolute;
-margin-top: 15.9em;
- width:26.05em;
- height:3.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
 
 
 
-#message4
-{
-	position: absolute;
-margin-top: 19.7em;
- width:26.05em;
- height:24em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-.imagemessagealkindi
-{
-	position: absolute;
-	margin-top: -9.1em;
- width: 22.5em;
- height: 18em;
-}
-
-.tutut
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 18.1em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
-
-
-#message5
-{
-	position: absolute;
-margin-top: 43.75em;
- width:26.05em;
- height:21.6em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-.imagemessagealkindi2
-{
-	position: absolute;
-	margin-top: -7em;
- width: 22.5em;
-}
-
-.tutut2
-{
-	margin-left: 2.9em;
-	margin-top: 4.8em;
-width: 22.8em;
-height: 16em;
-border: 0.05em;
-border-style: solid;
-border-color: rgb(230, 236, 240);
-border-radius: 1%;
-}
-
-
-
-
-#message6
-{
-	position: absolute;
-margin-top: 65.4em;
- width:26.05em;
- height:3.7em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message7
-{
-	position: absolute;
-margin-top: 69.15em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message8
-{
-	position: absolute;
-margin-top: 73.73em;
- width:26.05em;
- height:5.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
-
-
-#message9
-{
-	position: absolute;
-margin-top: 79.3em;
- width:26.05em;
- height:4.5em;
- background:white;
- margin-left: 22.5em;
- font-size: 1.4em;
-font-weight: bold;
-}
 
 
 
@@ -749,10 +639,3 @@ color:rgb(73, 153, 180);
 {
 color:black;
 }
-
-
-
-
-
-
-
